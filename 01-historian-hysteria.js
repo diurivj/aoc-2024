@@ -201,5 +201,3 @@ let result2 = sorted1.reduce((acc, curr) => {
   const coincidences = sorted2.filter((n) => n === n1);
   return acc + n1 * coincidences.length;
 }, 0);
-
-console.log(result2);
